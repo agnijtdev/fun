@@ -6,7 +6,7 @@ const Path =() =>{
   function getCount(width) {
     if (width >= 1024) return 9; // lg
     if (width >= 768) return 6;  // md
-    return 4;                    // sm
+    return 2;                    // sm
   }
   const [count, setCount] = useState(getCount(window.innerWidth));
 
